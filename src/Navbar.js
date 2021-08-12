@@ -7,26 +7,26 @@ const Navbar = () => {
             <nav className='Navbar'>
                 <h1>Convey</h1>
                 <div className='Links'>
-                        <li >
+                        {/* <li className='lin'> */}
                             <Link to = '/'>
                                 Home
                             </Link>
-                        </li>
-                        <li >
+                        {/* </li> */}
+                        {/* <li className='lin'> */}
                             <Link to = '/about'>
                                 About
                             </Link>
-                        </li>
-                        <li >
+                        {/* </li> */}
+                        {/* <li className='lin'> */}
                             <Link to = '/contact'>
                                 Contact
                             </Link>
-                        </li>
-                        <li >
+                        {/* </li> */}
+                        {/* <li className='lin'> */}
                             <Link to = '/help'>
                                 Help   
                             </Link>
-                        </li>
+                        {/* </li> */}
                 </div>
             </nav>
         </div>

@@ -5,25 +5,40 @@
   font-family:'Quicksand';
   color:black;
 }
-.Navbar{
-  padding: 20px;
-  margin: 10px;
-  display: flex;
-  justify-content: flex-end;
-}
-.Navbar h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial',' sans-serif';
-  justify-content: flex-start;
-  color: pink;
-}
-.Navbar.Links{
-  margin-left: auto;
-}
 .App{
-  display: inline-flex ;
-  justify-content: flex-end;
-  flex-direction: row;
+  display: flex ;
+  margin: 10px;
 }
 .Content{
   padding : 10px 5px;
+  margin: 5px;
+  max-width: 600px;
+}
+.Navbar{
+  background-color: bisque;
+  display: inline-flex;
+  padding: 10px 5px;
+  margin: 0px auto;
+  max-width: 600px;
+  align-items: center;
+  border-bottom:1px solid black;
+}
+.Navbar h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-style: italic;
+  color:white;
+}
+.Links{
+  margin-left: auto;
+  /* display: inline-flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  align-content: stretch; */
+}
+
+.Home{
+  display: flex;
 }

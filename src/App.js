@@ -1,4 +1,4 @@
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar'
 import Help from './Help'
 import Contact from './Contact';
 import About from './About';

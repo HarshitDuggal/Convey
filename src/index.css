@@ -5,10 +5,10 @@
   font-family:'Quicksand';
   color:black;
 }
-.App{
+/* .App{
   display: flex ;
   margin: 10px;
-}
+} */
 .Content{
   padding : 10px 5px;
   margin: 5px;
@@ -31,12 +31,15 @@
 }
 .Links{
   margin-left: auto;
-  /* display: inline-flex;
+  display: inline-flex;
   justify-content: flex-end;
   justify-content: space-around;
   padding: 10px;
   margin: 10px;
-  align-content: stretch; */
+  align-content: stretch;
+}
+.lin{
+  justify-content: space-around;
 }
 
 .Home{

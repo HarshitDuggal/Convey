@@ -1,8 +1,8 @@
-import Navbar from './Navbar/Navbar'
-import Help from './Help'
-import Contact from './Contact';
-import About from './About';
-import Home from './Home';
+import Navbar from '../Navbar/Navbar'
+import Help from '../Help/Help'
+import Contact from '../Contact/Contact';
+import About from '../About/About';
+import Home from '../Home/Home';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 
 function App() {
